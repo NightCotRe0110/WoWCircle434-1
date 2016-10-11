@@ -33,8 +33,6 @@ using G3D::Vector3;
 using G3D::Ray;
 using G3D::AABox;
 
-#ifndef NO_CORE_FUNCS
-
 struct GameobjectModelData
 {
     GameobjectModelData(const std::string& name_, const AABox& box) :
