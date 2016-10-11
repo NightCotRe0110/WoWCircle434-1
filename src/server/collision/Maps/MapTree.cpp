@@ -27,11 +27,8 @@
 #include <iomanip>
 #include <limits>
 
-#ifndef NO_CORE_FUNCS
-    #include "Errors.h"
-#else
-    #define ASSERT(x)
-#endif
+#include "Errors.h"
+#define ASSERT(x)
 
 using G3D::Vector3;
 
